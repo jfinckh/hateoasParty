@@ -13,7 +13,7 @@ import static org.springframework.hateoas.mvc.ControllerLinkBuilder.linkTo;
 @Getter
 public class Dance extends ResourceSupport {
 
-    private final String STATE = "DANCE_FEVER";
+    private final String STATE = Constants.DANCE_STATE;
 
     private final String name;
 

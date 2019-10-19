@@ -27,4 +27,29 @@ public final class Constants {
      * */
     public static final String TAXI = "getTaxi";
 
+    /**
+     * State-string for Drinks.
+     * */
+    public static final String DRINK_STATE = "DRINK";
+
+    /**
+     * State-string for Taxis.
+     * */
+    public static final String TAXI_STATE = "TAXI";
+
+    /**
+     * State-string for Food.
+     * */
+    public static final String FOOD_STATE = "FOOD";
+
+    /**
+     * State-string for Dance.
+     * */
+    public static final String DANCE_STATE = "DANCE";
+
+    /**
+     * State-string for Lobby.
+     * */
+    public static final String LOBBY_STATE = "LOBBY";
+
 }

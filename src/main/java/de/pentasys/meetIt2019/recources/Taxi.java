@@ -10,7 +10,7 @@ import static org.springframework.hateoas.mvc.ControllerLinkBuilder.linkTo;
 @Getter
 public class Taxi extends ResourceSupport {
 
-    private final String STATE = "TAXI";
+    private final String STATE = Constants.TAXI_STATE;
 
     public Taxi() {
         add(linkTo(TaxiController.class).withRel(Constants.SELF));

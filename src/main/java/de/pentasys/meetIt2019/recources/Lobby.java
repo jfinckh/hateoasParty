@@ -10,7 +10,7 @@ import static org.springframework.hateoas.mvc.ControllerLinkBuilder.linkTo;
 @Getter
 public class Lobby extends ResourceSupport {
 
-    private final String STATE = "LOBBY";
+    private final String STATE = Constants.LOBBY_STATE;
 
     public Lobby() {
         add(linkTo(LobbyController.class).withRel(Constants.SELF));

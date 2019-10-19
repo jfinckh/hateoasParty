@@ -12,7 +12,7 @@ import static org.springframework.hateoas.mvc.ControllerLinkBuilder.linkTo;
 @Getter
 public class Drink extends ResourceSupport {
 
-    private final String STATE = "DRINK";
+    private final String STATE = Constants.DRINK_STATE;
     private final String name;
 
     public Drink(final String name) {
